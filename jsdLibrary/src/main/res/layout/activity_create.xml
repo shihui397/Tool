@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCreateQrcode"
+            android:text="生成二维码"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_addLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加logo图案"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

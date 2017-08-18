@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#969696</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="skyblue">#00aff0</color>
+    <color name="jsd_bottombar_normal_text">#9b9b9b</color>
+    <color name="jsd_bottombar_selected_text">#61D6EB</color>
+    <color name="jsd_selected_text">#61D6EB</color>
+    <color name="jsd_normal_text">#ffffff</color>
+    <color name="black_p50">#7f000000</color>
+    <color name="gray_e7e7e7">#e7e7e7</color>
+    <color name="b_c_fafafa">#fafafa</color>
+    <color name="blue_4285f4">#4285f4</color>
+    <color name="black_5a626d">#5a626d</color>
+    <color name="f2f2f2">#f2f2f2</color>
+    <color name="jsd_divide">#DDDDDD</color>
+</resources>

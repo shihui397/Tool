@@ -98,7 +98,9 @@ public class SelectBar extends LinearLayout {
             lastIndex = curIndex;
         }
     }
-
+    public int getCurIndex() {
+        return curIndex;
+    }
     public interface OnItemClickListener{
         void onItemClick(int position);
     }
